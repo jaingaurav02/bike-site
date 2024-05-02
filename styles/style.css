@@ -1,0 +1,41 @@
+/* custom Css */
+
+.primary_btn {
+    background-color: brown;
+    color: aqua;
+}
+
+.primary_btn:hover {
+    background-color: aqua;
+    color: brown;
+    font-weight: 700;
+}
+
+.filled {
+    color: gold;
+}
+
+.header {
+    background-image: url('../images/bike-2.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.r_clr {
+    color: red;
+    font-weight: 600;
+    background-color: rgb(234, 226, 216);
+
+    background-blend-mode: darken;
+    padding: 5px;
+}
+
+@media screen and (max-width:576px) {
+    .header {
+        background-size: cover;
+        width: 100vw;
+        height: auto;
+        padding: 5px;
+    }
+}
